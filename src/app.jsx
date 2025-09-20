@@ -1,12 +1,6 @@
 import gsap from "gsap";
 import {ScrollTrigger, SplitText} from "gsap/all";
-import Navbar from "./components/Navbar.jsx";
-import Hero from "./components/Hero.jsx";
-import Cocktails from "./components/Cocktails.jsx";
-import About from "./components/About.jsx";
-import Art from "./components/Art.jsx";
-import Menu from "./components/Menu.jsx";
-import Contact from "./components/Contact.jsx";
+import { About, Art, Cocktails, Contact, Hero, Menu, Navbar } from "./components/";
 
 // register here to make these globally, across application
 gsap.registerPlugin(ScrollTrigger, SplitText);
